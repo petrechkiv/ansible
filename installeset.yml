@@ -1,0 +1,9 @@
+---
+- name: Install Antivirus
+  hosts: windows-virt-host
+
+- tasks: Install Eset
+  name: Install Eset
+  win_shell:
+    "msiexec /qn /i c:\utils\eav_nt64_rus.msi /l*xv msi.log ADDLOCAL=RealtimeProtection"
+
