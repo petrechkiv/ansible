@@ -11,7 +11,7 @@
 
 # Порты и сайты доступность которых необходимо проверять
 $Ports  = "80","443"
-$Sites = "google.com", "belwest.com", "chocolatey.org"
+$Sites = "google.com", "chocolatey.org"
 
 
 #определение строки пароля
